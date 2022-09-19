@@ -55,24 +55,24 @@
     &-small,
     &-big-1,
     &-big-2 {
-      @apply absolute rounded-[50%] blur-[90px];
+      @apply absolute rounded-[50%] blur-[90px] xl:blur-[132px];
     }
 
     &-small {
-      @apply w-[150px] h-[150px] bg-blue -top-10 -left-6;
+      @apply w-[150px] h-[150px] bg-blue -top-10 -left-6 xl:w-[300px] xl:h-[300px] xl:-top-20 xl:-left-8;
     }
 
     &-big-1,
     &-big-2 {
-      @apply w-[250px] h-[250px];
+      @apply w-[250px] h-[250px] xl:w-[400px] xl:h-[400px];
     }
 
     &-big-1 {
-      @apply bg-blue top-64 -right-[6.5rem];
+      @apply bg-blue top-64 -right-[6.5rem] xl:top-40 xl:-right-14;
     }
 
     &-big-2 {
-      @apply bg-purple -left-14 -bottom-16;
+      @apply bg-purple -left-14 -bottom-16 xl:left-56 xl:-bottom-40;
     }
 
     &-bg {
