@@ -1,0 +1,18 @@
+/* ===== FONT GOOGLE ===== */
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&display=swap");
+
+/* ===== Add the Tailwind directives to your CSS ===== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== REUSABLE CSS CLASS ===== */
+@layer components {
+  .container {
+    @apply max-w-[1024px] w-[calc(100%-3rem)] mx-auto;
+  }
+
+  .main {
+    @apply overflow-hidden;
+  }
+}
