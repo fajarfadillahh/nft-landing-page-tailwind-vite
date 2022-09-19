@@ -41,7 +41,9 @@
         >
 
         <div class="header__menu" id="header-menu">
-          <ul class="header__list flex flex-col gap-6 text-center">
+          <ul
+            class="header__list flex flex-col gap-6 text-center md:flex-row md:gap-10"
+          >
             <li class="header__item">
               <a href="#" class="header__link">Home</a>
             </li>
@@ -60,7 +62,7 @@
           </ul>
 
           <div
-            class="header__close absolute top-10 right-6 inline-flex text-[1.5rem] text-white-100 cursor-pointer"
+            class="header__close absolute top-10 right-6 inline-flex text-[1.5rem] text-white-100 cursor-pointer md:hidden"
             id="header-close"
           >
             <i class="bx bx-x"></i>
@@ -69,12 +71,12 @@
           <img
             src="./src/img/ethereum-img.png"
             alt=""
-            class="header__eth absolute w-[80px] left-4 -bottom-8 drop-shadow-[0_4px_8px_hsla(203,70%,60%,0.5)]"
+            class="header__eth absolute w-[80px] left-4 -bottom-8 drop-shadow-[0_4px_8px_hsla(203,70%,60%,0.5)] md:hidden"
           />
         </div>
 
         <div
-          class="header__toggle inline-flex text-[1.5rem] text-white-100 cursor-pointer"
+          class="header__toggle inline-flex text-[1.5rem] text-white-100 cursor-pointer md:hidden"
           id="header-toggle"
         >
           <i class="bx bx-menu"></i>
