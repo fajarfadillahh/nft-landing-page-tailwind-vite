@@ -82,18 +82,18 @@
 
   &__wrapper {
     &-number {
-      @apply text-[20px] text-white-100 font-semibold mb-1;
+      @apply text-[20px] text-white-100 font-semibold mb-1 md:text-[24px];
     }
 
     &-text {
-      @apply text-[12px];
+      @apply text-[12px] md:text-[16px];
     }
   }
 
   &__footer {
     &-title,
     &-subtitle {
-      @apply block text-[12px];
+      @apply block text-[12px] md:text-[16px];
     }
 
     &-title {
@@ -101,7 +101,7 @@
     }
 
     &-number {
-      @apply text-[20px] font-semibold mb-1;
+      @apply text-[20px] font-semibold mb-1 md:text-[24px];
     }
 
     &-counter {
