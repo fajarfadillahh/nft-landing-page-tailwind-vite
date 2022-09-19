@@ -121,3 +121,8 @@
     transform: translateY(0.5rem);
   }
 }
+
+// ===== ::SELECTION =====
+::selection {
+  @apply bg-purple text-white-100;
+}
