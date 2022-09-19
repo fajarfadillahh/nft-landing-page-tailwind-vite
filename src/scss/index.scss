@@ -126,3 +126,16 @@
 ::selection {
   @apply bg-purple text-white-100;
 }
+
+// ===== :-WEBKIT-SCROLLBAR =====
+::-webkit-scrollbar {
+  @apply w-[8px] bg-body bg-opacity-10;
+
+  &-thumb {
+    @apply bg-body bg-opacity-20 rounded-full;
+
+    &:hover {
+      @apply bg-body bg-opacity-30;
+    }
+  }
+}
