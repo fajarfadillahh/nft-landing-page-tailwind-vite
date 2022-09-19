@@ -26,6 +26,63 @@
     </style>
   </head>
   <body class="font-body bg-body text-white-100">
+    <!-- ===== HEADER SECTION ===== -->
+    <header
+      class="header fixed w-full top-0 left-0 bg-transparent transition-all duration-400 z-50"
+      id="header"
+    >
+      <div
+        class="header__container container relative h-24 flex justify-between items-center"
+      >
+        <a
+          href="#"
+          class="header__logo text-[20px] text-white-100 font-semibold"
+          >nft.io</a
+        >
+
+        <div class="header__menu" id="header-menu">
+          <ul class="header__list flex flex-col gap-6 text-center">
+            <li class="header__item">
+              <a href="#" class="header__link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Market</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Activity</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Community</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Blog</a>
+            </li>
+          </ul>
+
+          <div
+            class="header__close absolute top-10 right-6 inline-flex text-[1.5rem] text-white-100 cursor-pointer"
+            id="header-close"
+          >
+            <i class="bx bx-x"></i>
+          </div>
+
+          <img
+            src="./src/img/ethereum-img.png"
+            alt=""
+            class="header__eth absolute w-[80px] left-4 -bottom-8 drop-shadow-[0_4px_8px_hsla(203,70%,60%,0.5)]"
+          />
+        </div>
+
+        <div
+          class="header__toggle inline-flex text-[1.5rem] text-white-100 cursor-pointer"
+          id="header-toggle"
+        >
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ===== HEADER SECTION ===== -->
+
     <!-- ===== MAIN JS ===== -->
     <script type="module" src="./src/js/main.js"></script>
   </body>

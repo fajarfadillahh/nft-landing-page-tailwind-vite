@@ -16,3 +16,30 @@
     @apply overflow-hidden;
   }
 }
+
+// ===== HEADER SECTION =====
+.header {
+  &__logo {
+    &:hover {
+      @apply bg-gradient-to-r from-purple to-blue bg-clip-text text-transparent;
+    }
+  }
+
+  &__menu {
+    @media screen and (max-width: 767px) {
+      @apply fixed w-full -top-full left-0 pt-16 pb-14 bg-body shadow-[0_4px_8px_hsla(203,71%,4%,0.2)] transition-all duration-400 overflow-hidden;
+    }
+
+    &.show-menu {
+      @apply top-0;
+    }
+  }
+
+  &__link {
+    @apply text-[15px] text-white-100 font-semibold;
+
+    &:hover {
+      @apply bg-gradient-to-r from-purple to-blue bg-clip-text text-transparent;
+    }
+  }
+}
