@@ -19,6 +19,11 @@
 
 // ===== HEADER SECTION =====
 .header {
+  // sticky header
+  &.sticky-action {
+    @apply bg-body shadow-[0_4px_8px_hsla(203,71%,4%,0.2)];
+  }
+
   &__logo {
     &:hover {
       @apply bg-gradient-to-r from-purple to-blue bg-clip-text text-transparent;
